@@ -1,0 +1,26 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "> Final exam for checking student knowledge and practical skills",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:variant1": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant1.test.js",
+    "test:variant2": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant2.test.js",
+    "test:variant3": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant3.test.js",
+    "test:variant4": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant4.test.js",
+    "test:variant5": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant5.test.js",
+    "test:variant6": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant6.test.js",
+    "test:variant7": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant7.test.js",
+    "test:variant8": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant8.test.js",
+    "test:variant9": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant9.test.js",
+    "test:variant10": "node --experimental-vm-modules node_modules/jest/bin/jest.js libs/variant10.test.js"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }    
+}
